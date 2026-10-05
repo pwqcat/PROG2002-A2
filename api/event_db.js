@@ -18,7 +18,8 @@ function getConnection() {
         host: dbDetails.host,
         user: dbDetails.user,
         password: dbDetails.password,
-        database: dbDetails.database
+        database: dbDetails.database,
+        dateStrings: true
     });
 }
 
